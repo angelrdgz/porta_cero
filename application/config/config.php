@@ -24,6 +24,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = '';
+$serverName = $_SERVER["SERVER_NAME"];
+
+if($serverName =='localhost'){
+	$serverName = $serverName =='localhost' ? $serverName.'/portal_cero' : $serverName;
+	$config['PROD'] = false;
+	$config['base_url'] = 'http://'.$serverName;
+}elseif(strpos($serverName, "ngrok") !== FALSE || strpos($_SERVER["HTTP_HOST"], "ngrok") !== FALSE){
+	$serverName = $_SERVER["HTTP_HOST"];
+	$config['PROD'] = false;
+	$config['base_url'] = 'http://'.$serverName.'/portal_cero';
+}else{
+	$config['base_url'] = 'https://'.$_SERVER['HTTP_HOST'].'/';
+}
 
 /*
 |--------------------------------------------------------------------------
