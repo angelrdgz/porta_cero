@@ -104,27 +104,27 @@
 	<div class="col-sm-12">
 		<div class="container" style="padding: 50px 40px;">
 			<div class="row">
-			<br>
-			<div class="col-sm-12">
-				<h1 class="text-center text-white">¿Como funciona?</h1>
-			</div>
-			<br>
-			<div class="col-sm-3 rtr rbl" style="background: #6409e3;">
-				<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
-				<p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p>
-			</div>
-			<div class="col-sm-3 rtr rbl" style="background: #6409e3;">
-				<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
-				<p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p>
-			</div>
-			<div class="col-sm-3 rtr rbl" style="background: #6409e3;">
-				<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
-				<p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p>
-			</div>
-			<div class="col-sm-3 rtr rbl" style="background: #6409e3;">
-				<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
-				<p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p>
-			</div>
+				<br>
+				<div class="col-sm-12">
+					<h1 class="text-center text-white">¿Como funciona?</h1>
+				</div>
+				<br>
+				<div class="col-sm-3 rtr rbl" style="background: #6409e3;">
+					<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
+					<p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p>
+				</div>
+				<div class="col-sm-3 rtr rbl" style="background: #6409e3;">
+					<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
+					<p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p>
+				</div>
+				<div class="col-sm-3 rtr rbl" style="background: #6409e3;">
+					<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
+					<p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p>
+				</div>
+				<div class="col-sm-3 rtr rbl" style="background: #6409e3;">
+					<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
+					<p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p>
+				</div>
 			</div>
 			<br><br>
 			<div class="row">

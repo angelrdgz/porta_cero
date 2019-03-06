@@ -23,7 +23,7 @@
 							<td style="vertical-align: middle;"><strong>Playera Blanca <br> #00001</strong></td>
 							<td style="vertical-align: middle;">
 								<i>-</i>
-								<input type="text" style="border: 1px solid #fff; background:transparent; color:#fff; border-radius: 10px; height:45px;width: 80px;" name="" value="">
+								<input type="text" value="1" style="border: 1px solid #fff; background:transparent; color:#fff; border-radius: 10px; height:45px;width: 80px; text-align:center;" name="" value="">
 								<i>+</i>
 							</td>
 							<td class="text-center" style="vertical-align: middle;">$150.00</td>
@@ -38,7 +38,7 @@
 							<td style="vertical-align: middle;"><strong>Playera Blanca <br> #00001</strong></td>
 							<td style="vertical-align: middle;">
 								<i>-</i>
-								<input type="text" style="border: 1px solid #fff; background:transparent; color:#fff; border-radius: 10px; height:45px;width: 80px;" name="" value="">
+								<input type="text" value="1" style="border: 1px solid #fff; background:transparent; color:#fff; border-radius: 10px; height:45px;width: 80px; text-align:center;" name="" value="">
 								<i>+</i>
 							</td>
 							<td class="text-center" style="vertical-align: middle;">$150.00</td>

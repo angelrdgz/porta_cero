@@ -56,21 +56,49 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
+      	<h2 class="text-center" style="color: #fff;">Hola, ¿Que quieres hacer?</h2>
+      	<br>
         <div class="row">
-        	<div class="col-sm-6">
+        	<div class="col-sm-6" >
         		<h2 class="text-center">Registrarme</h2>
-        		<form action="">
-        			<div class="row">
-        				<div class="col-sm-12">
-        					<div class="form-group">
-        						<label for=""></label>
-        						<input type="text" class="form-control">
-        					</div>
-        				</div>
-        			</div>
-        		</form>
+        		<br>
+    			<div class="form-group">
+    				<label for="">Nombre</label>
+    				<input type="text" class="form-control">
+    			</div>
+    			<div class="form-group">
+    				<label for="">Correo</label>
+    				<input type="text" class="form-control">
+    			</div>
+    			<div class="form-group" style="width:48%; float:left;">
+    				<label for="">Contraseña</label>
+    				<input type="text" class="form-control">
+    			</div>
+    			<div class="form-group" style="width:48%; float:right;">
+    				<label for="">Confirmar Contraseña</label>
+    				<input type="text" class="form-control">
+    			</div>
+    			<br>
+    			<p class="text-center">
+    				<a href="" class="btn btn-app btn-white">Registrar</a>
+    			</p>
         	</div>
-        	<div class="col-sm-6">B</div>
+        	<div class="col-sm-6 white-box">
+        		<h2 class="text-center">Inicar Sesión</h2>
+        		<br>
+    			<div class="form-group">
+    				<label for="">Correo Electronico</label>
+    				<input type="text" style="border:2px solid #7600eb;"class="form-control">
+    			</div>
+    			<div class="form-group">
+    				<label for="">Contraseña</label>
+    				<input type="text" style="border:2px solid #7600eb;"class="form-control">
+    			</div>
+    			<br>
+    			<p class="text-center">
+    				<a href="" class="btn btn-app btn-purple">Entrar</a>
+    			</p>
+        	</div>
         </div>
       </div>
     </div>

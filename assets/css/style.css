@@ -14,7 +14,7 @@ header{
 	height: 80px;
 	position: fixed;
 	top: 0;
-	z-index: 2000;
+	z-index: 1000;
 }
 ul{
 	padding: 0;
@@ -88,14 +88,16 @@ ul{
 	font-size: 0.8em;
 }
 .modal{
-	background: #373B44 !important;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4286f4, #373B44) !important;  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4286f4, #373B44) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: url(../images/bg_nuestroequipo_portal_cero.png) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 }
 #loginModal .modal-dialog{
-  width: 65%;
-  max-width: 65%;
-  height: 500px;
+  width: 70%;
+  max-width: 70%;
+  height: 420px;
   top: 17.5%;
 }
 #loginModal .modal-dialog .modal-content{
@@ -111,7 +113,19 @@ background: linear-gradient(to right, #4286f4, #373B44) !important; /* W3C, IE 1
   width:100%;
   height: 100%;
 }
-#loginModal .modal-dialog .modal-content .modal-body .row div:last-child{
+#loginModal .modal-dialog .modal-content .modal-body .row div:first-child h2{
+  color: #fff;
+}
+#loginModal .modal-dialog .modal-content .modal-body .row div:last-child h2{
+  color: #6409e3;
+}
+#loginModal .modal-dialog .modal-content .modal-body .row div:first-child label{
+  color: #fff;
+}
+#loginModal .modal-dialog .modal-content .modal-body .row div:last-child label{
+  color: #6409e3;
+}
+#loginModal .modal-dialog .modal-content .modal-body .row div.white-box{
   background: #fff;
   width:100%;
   height: 100%;

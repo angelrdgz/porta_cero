@@ -1,5 +1,5 @@
 <div class="welcome-box">
-	<!--<div class="content">
+	<div class="content">
 		<h1 class="title">El Portal a nuevos Universos</h1>
 		<br>
 		<p class="text-content">Explora música, comics, animaciones, ilustraciones e historias y experimenta otras realidades.</p>
@@ -7,5 +7,5 @@
 		<p class="text-center">
 			<a href="" class="btn-uncorner btn-secondary double-padding">Transpórtame</a>
 		</p>
-	</div>-->
+	</div>
 </div>
