@@ -88,7 +88,7 @@ ul{
 	font-size: 0.8em;
 }
 .modal{
-	background: url(../images/bg_nuestroequipo_portal_cero.png) no-repeat center center fixed; 
+	background: url(../images/bg_nuestroequipo_portal_cero.png) no-repeat center center fixed;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -187,6 +187,9 @@ ul{
 	width: 100px;
 	border-radius: 0;
 }
+.navbar .btn-navbar i{
+	color: #fff !important;
+}
 .navbar .navbar-inner{
 	width: 100%;
 }
@@ -225,11 +228,22 @@ ul{
 	height: 100px;
 	margin-bottom: 20px;
 }
+.navbar .nav-collapse ul li.login-link a:hover{
+	color: #fff;
+}
 .navbar .nav-collapse ul li.login-link a img{
   height: 80px;
   display: block;
   margin: 10px auto 0px;
   float: none;
+}
+.navbar .nav-collapse ul li:last-child{
+	text-align: center;
+}
+.navbar .nav-collapse ul li:last-child a{
+ color: white;
+ float: none;
+ text-shadow: none;
 }
 .brand img{
 	height: 90%;
@@ -402,4 +416,34 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
   top: 0; left: 0; bottom: 0; right: 0;
 	color:#fff;
 	margin-top: 50px;
+}
+.designers-box{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;;
+}
+.designers-box .designer-box{
+	width: 22%;
+	height: auto;
+	padding: 10px;
+	position: relative;
+	background: #6409e3;
+}
+.designers-box .designer-box img{
+	width: 70px;
+	display: block;
+	margin: 10px auto;
+}
+.designers-box .designer-box p{
+	font-weight: normal;
+	font-size: 0.7em;
+}
+.designers-box .designer-box span{
+	font-weight: bolder;
+	font-size: 0.75em;
+	position: relative;
+	top: 5px;
+	left: 5px;
+	color: #fff;
 }

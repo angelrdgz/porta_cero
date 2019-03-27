@@ -4,7 +4,7 @@
 			<div class="container">
 				<img style="width:100px; display:block; margin: 30px auto;" src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
 				<p class="text-center text-white">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore totam maiores modi perspiciatis temporibus et quisquam! Cupiditate, numquam! Explicabo mollitia, deleniti, hic amet aperiam quas ipsam vero quod incidunt fuga!
+					Los diseñadores son fabricantes de productos que aprovechan el contenido original de los Universos de los Creadores para aplicarlos en objetos originales y atractivos que ponemos a la venta: ropa, accesorios, tazas, termos ¡o lo que tú hagas!
 				</p>
 				<p class="text-center">
 					<a href="" class="btn-app btn-white">Ser Diseñador</a>
@@ -85,16 +85,22 @@
 		<div class="bg-purple">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12">
+					<div class="col-sm-10 offset-sm-1">
 						<h2 class="text-center divider">Beneficios de ser un diseñador Portal Cero</h2>
 						<h5 class="text-center text-white">Dedicate a hacer lo que te gusta y ganar dinero. Nosotros hacemos el resto</h5>
 					</div>
 				</div>
 				<br><br>
 				<div class="row">
-					<div class="col-sm-4"><p class="text-justify text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p></div>
-					<div class="col-sm-4"><p class="text-justify text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p></div>
-					<div class="col-sm-4"><p class="text-justify text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p></div>
+					<div class="col-sm-4">
+						<p class="text-justify text-white">Consigue un "fan base" De Portal Cero de jovenes adultos para tus productos.</p>
+					</div>
+					<div class="col-sm-4">
+						<p class="text-justify text-white">Aprovecha universos originales para realizar tus productos. Nosotros te contactamos</p>
+					</div>
+					<div class="col-sm-4">
+						<p class="text-justify text-white">Gana dinero vendiendo tus productos.</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -106,24 +112,30 @@
 			<div class="row">
 				<br>
 				<div class="col-sm-12">
-					<h1 class="text-center text-white">¿Como funciona?</h1>
+					<h4 class="text-center text-white">¿Como funciona?</h4>
 				</div>
 				<br>
-				<div class="col-sm-3 rtr rbl" style="background: #6409e3;">
-					<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
-					<p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p>
-				</div>
-				<div class="col-sm-3 rtr rbl" style="background: #6409e3;">
-					<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
-					<p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p>
-				</div>
-				<div class="col-sm-3 rtr rbl" style="background: #6409e3;">
-					<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
-					<p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p>
-				</div>
-				<div class="col-sm-3 rtr rbl" style="background: #6409e3;">
-					<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
-					<p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum.</p>
+				<div class="designers-box">
+					<div class="designer-box rtr rbl">
+						<span>1</span>
+						<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
+						<p class="text-center text-white">Compártenos una muestra de tu universo via e-mail.</p>
+					</div>
+					<div class="designer-box rtr rbl">
+						<span>2</span>
+						<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
+						<p class="text-center text-white">Seleccionamos aquellos que cumplan la calidad y criterios bajo contrario.</p>
+					</div>
+					<div class="designer-box rtr rbl">
+						<span>3</span>
+						<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
+						<p class="text-center text-white">Subimos el contenido en nuestra plataforma asi como tu perfil de creador.</p>
+					</div>
+					<div class="designer-box rtr rbl">
+						<span>4</span>
+						<img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt="">
+						<p class="text-center text-white">Te ayudamos a diseñar y fabricar tu merchandise.</p>
+					</div>
 				</div>
 			</div>
 			<br><br>

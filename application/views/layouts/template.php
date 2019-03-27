@@ -2,6 +2,7 @@
 <head>
     <title><?php echo $title ?></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/style.css' ?>">
 </head>
 <body>
@@ -10,9 +11,7 @@
 		<div class="navbar-inner">
 			<div class="container">
 				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
+			        <i class="material-icons">menu</i>
 		        </button>
 		        <a class="brand" href="/">
 		        	<img src="<?php echo base_url().'assets/images/logo_PortalCero.png'; ?> " alt="">
@@ -22,7 +21,7 @@
 		        		<li class="login-link text-center">
 		        			<a data-toggle="modal" data-target="#loginModal">
 		        				<img src="<?php echo base_url().'assets/images/icono_miperfil.png'; ?>" alt="">
-			        			<span>Iniciar Sesión</span>
+			        			<span>Iniciar Sesión / <br> Registrarte</span>
 			        		</a>
 		        		</li>
 		        		<li><a href="#"><img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt=""> Carrito</a></li>
@@ -32,7 +31,7 @@
 		        		<li><a href="#"><img src="<?php echo base_url().'assets/images/icono_competencias.png'; ?>" alt=""> Competencias</a></li>
 		        		<li><a href="#"><img src="<?php echo base_url().'assets/images/icono_dudas.png'; ?>" alt=""> Dudas</a></li>
 		        		<li><a href="#"><img src="<?php echo base_url().'assets/images/icono_nbosotros.png'; ?>" alt=""> Nosotros</a></li>
-		        		<li><a href="#" class="close" data-toggle="collapse" data-target=".nav-collapse">cerrar</a></li>
+		        		<li><a href="#" class="close" data-toggle="collapse" data-target=".nav-collapse"><i class="material-icons">clear</i></a></li>
 		        	</ul>
 		        </div>
 		        <div class="menu float-right">
