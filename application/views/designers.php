@@ -9,7 +9,9 @@
 				<p class="text-center">
 					<a href="" class="btn-app btn-white">Ser Diseñador</a>
 				</p>
+
 			</div>
+			<h3 style="color: #fff;">Conoce nuestros diseñadores</h3>
 		</div>
 	</div>
 </div>

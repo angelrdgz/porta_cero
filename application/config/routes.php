@@ -11,3 +11,4 @@ $route['cart'] = '/welcome/cart';
 $route['search'] = '/welcome/search';
 $route['designers'] = '/welcome/designers';
 $route['profile'] = '/welcome/profile';
+$route['store'] = '/welcome/store';
