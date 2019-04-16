@@ -24,9 +24,9 @@
 			        			<span>Iniciar Sesión / <br> Registrarte</span>
 			        		</a>
 		        		</li>
-		        		<li><a href="#"><img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt=""> Carrito</a></li>
+		        		<li><a href="<?php echo base_url().'cart'; ?>"><img src="<?php echo base_url().'assets/images/icono_tienda.png'; ?>" alt=""> Carrito</a></li>
 		        		<li><a href="#"><img src="<?php echo base_url().'assets/images/icono_creadores.png'; ?>" alt=""> Creadores</a></li>
-		        		<li><a href="#"><img src="<?php echo base_url().'assets/images/icono_disenadores.png'; ?>" alt=""> Diseñadores</a></li>
+		        		<li><a href="<?php echo base_url().'designers'; ?>"><img src="<?php echo base_url().'assets/images/icono_disenadores.png'; ?>" alt=""> Diseñadores</a></li>
 		        		<li><a href="#"><img src="<?php echo base_url().'assets/images/icono_aliados.png'; ?>" alt=""> Aliados</a></li>
 		        		<li><a href="#"><img src="<?php echo base_url().'assets/images/icono_competencias.png'; ?>" alt=""> Competencias</a></li>
 		        		<li><a href="#"><img src="<?php echo base_url().'assets/images/icono_dudas.png'; ?>" alt=""> Dudas</a></li>
@@ -36,11 +36,11 @@
 		        </div>
 		        <div class="menu float-right">
 		        	<ul>
-		        		<li><a href="" class="active">Inicio</a></li>
-		        		<li><a href="">Universos</a></li>
+		        		<li><a href="<?php echo base_url(); ?>" class="active">Inicio</a></li>
+		        		<li><a href="<?php echo base_url().'universes'; ?>">Universos</a></li>
 		        		<li><a href="">Tienda</a></li>
 		        		<li><a href="">Contacto</a></li>
-		        		<li><a class="no-padding"><img src="<?php echo base_url().'assets/images/icono_miperfil_home.png'; ?>" alt=""></a></li>
+		        		<li><a href="<?php echo base_url().'profile'; ?>" class="no-padding"><img src="<?php echo base_url().'assets/images/icono_miperfil_home.png'; ?>" alt=""></a></li>
 		        		<li><a class="no-padding" data-toggle="modal" data-target="#loginModal"><img src="<?php echo base_url().'assets/images/icono_carrito_home.png'; ?>" alt=""></a></li>
 		        	</ul>
 		        </div>
